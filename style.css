@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ALSSchlangesans";
+  font-family: ALSSchlangesans; /* Имя шрифта */
+  src: url(fonts/ALSSchlangesans.ttf); /* Путь к файлу со шрифтом */
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  font-family: ALSSchlangesans;
+  font-size: 12px;
+  line-height: 16px;
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+@media (min-width: 310px) {
+  .header__title {
+    display: none;
+  }
+
+  .header__page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-top: 30px;
+  }
+  .header__subtitle {
+    margin-top: 13px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #9a9a9a;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .nav {
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .nav__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .nav__icon {
+    cursor: pointer;
+  }
+
+  .offer__head {
+    background: url(img/bg-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    background-position: center;
+  }
+
+  .offer-text__manufacture {
+    text-align: center;
+  }
+  .offer-text__manufacture-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .offer-text__manufacture-subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: orange;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .offer-banner-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .offer-banner-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .gray {
+    width: 100%;
+    height: 154px;
+    background-color: gray;
+  }
+
+  .calculate__title {
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 33px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .calculate-features {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item__uppertitle {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .item__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .calculate-price {
+    margin-top: 38px;
+    text-align: center;
+  }
+
+  .calculate-price__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .calculate-price__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+  }
+  .calculate-price__number {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 16px;
+  }
+
+  .calculate-price__title {
+    margin-right: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .calculate-price__input {
+    width: 339.1px;
+    height: 5px;
+    border-radius: 3px;
+    background: #c4c4c4;
+    margin-bottom: 32px;
+  }
+
+  .calculate-partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .calculate-partners__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    margin-right: 13px;
+  }
+  .calculate-cheque {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+  }
+
+  .cheque {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.25);
+    max-width: 263px;
+    width: 100%;
+    padding: 13px;
+    text-align: right;
+    background: white;
+    min-height: 349px;
+    z-index: 2;
+  }
+
+  .cheque::after {
+    content: "";
+    background: url(img/cheque.png);
+    position: absolute;
+    bottom: -10px;
+    width: 103%;
+    height: 15px;
+    z-index: 5;
+    left: -3px;
+  }
+
+  .calculate-cheque::before {
+    content: " ";
+    position: absolute;
+    top: -24px;
+    width: 324px;
+    background: white;
+    height: 56px;
+    z-index: -1;
+    background: #ffffff;
+    border: 20px solid #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  .cheque-summ,
+  .cheque-payment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .cheque-summ__title,
+  .cheque-payment__title {
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+
+  .cheque-payment__title {
+    margin-bottom: 18px;
+  }
+
+  .cheque-summ__summ,
+  .cheque-payment__summ {
+    font-size: 40px;
+    line-height: 16px;
+  }
+
+  .cheque-contribution {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+    align-items: flex-end;
+  }
+  .cheque-contribution__first-contribution {
+    margin-bottom: 17px;
+  }
+  .cheque-contribution__first-contribution,
+  .cheque-contribution__overpayment {
+    display: flex;
+  }
+
+  .first-contribution__summ,
+  .overpayment__summ {
+    font-size: 24px;
+    line-height: 16px;
+    color: #f26422;
+    margin-left: 11px;
+  }
+
+  .cheque__button {
+    padding: 6px 17px;
+    border: none;
+    background: #f26422;
+    border-radius: 6px;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 27px;
+    cursor: pointer;
+  }
+
+  .white-gray {
+    height: 154px;
+    background: #c7c7c7;
+  }
+  .footer__items {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+    background-color: #015a76;
+    height: 378px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__page {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .header__title {
+    display: block;
+  }
+  .nav {
+    justify-content: center;
+  }
+
+  .nav__icon {
+    display: none;
+  }
+
+  .offer {
+    display: flex;
+    flex-direction: row-reverse;
+    background: url(img/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  .offer__head {
+    width: auto;
+    background: none;
+  }
+  .offer-banner-2 {
+    display: none;
+  }
+  .offer-text {
+    background: url(img/offer-blu-bg.png);
+  }
+}
+
+@media (min-width: 1900px) {
+  .calculate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .calculate-container {
+    display: flex;
+  }
+  .features-container {
+    margin-right: 50px;
+  }
+}
