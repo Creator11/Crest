@@ -395,6 +395,16 @@ body {
     font-size: 40px;
     line-height: 50px;
   }
+
+  .calculate-price {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .calculate-price__input {
+    min-width: 500px;
+  }
 }
 
 @media (min-width: 1900px) {
