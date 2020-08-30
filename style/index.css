@@ -1,15 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(normalize.css);
 
 @font-face {
   font-family: "ALSSchlangesans";
-  font-family: ALSSchlangesans; /* Имя шрифта */
-  src: url(fonts/ALSSchlangesans.ttf); /* Путь к файлу со шрифтом */
+  font-family: ALSSchlangesans;
+  src: url(../fonts/ALSSchlangesans.ttf);
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 img {
   object-fit: cover;
 }
@@ -25,6 +25,8 @@ body {
 @media (min-width: 310px) {
   .header__title {
     display: none;
+    font-size: 24px;
+    line-height: 22px;
   }
 
   .header__page {
@@ -63,7 +65,7 @@ body {
   }
 
   .offer__head {
-    background: url(img/bg-main.png);
+    background: url(../img/bg-main.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -213,7 +215,7 @@ body {
 
   .cheque::after {
     content: "";
-    background: url(img/cheque.png);
+    background: url(../img/cheque.png);
     position: absolute;
     bottom: -10px;
     width: 103%;
@@ -336,24 +338,62 @@ body {
   }
 
   .offer {
+    position: relative;
     display: flex;
     flex-direction: row-reverse;
-    background: url(img/bg-main.png);
+    background: url(../img/bg-main.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: space-between;
-    padding: 25px;
   }
   .offer__head {
+    position: relative;
     width: auto;
     background: none;
+  }
+  .offer__head::after {
+    content: url(../img/man_planshet.png);
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    object-fit: cover;
+    height: 247px;
+    left: -450px;
   }
   .offer-banner-2 {
     display: none;
   }
+
+  .offer::before {
+    content: "";
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 476px;
+    clip-path: ellipse(50% 107% at 42% 45%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
   .offer-text {
-    background: url(img/offer-blu-bg.png);
+    z-index: 2;
+  }
+
+  .offer-text__manufacture-title {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .offer-text__manufacture-subtitle {
+    color: #ffe600;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
   }
 }
 
