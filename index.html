@@ -11,7 +11,7 @@
     <header>
       <div class="header__page">
         <p class="header__title">шапка</p>
-        <div>
+        <div class="header__container">
           <a href="#">
             <img class="header__logo logo" src="img/logo.png" alt="" />
           </a>
@@ -26,7 +26,9 @@
     <main>
       <section class="offer">
         <div class="offer__head">
-          <img src="" alt="" />
+          <img class="offer__head-img img" src="img/Group 201.png" alt="" />
+
+          <img class="offer__head-img img" src="img//man_planshet.png" alt="" />
         </div>
         <div class="offer-text">
           <div class="offer-text__manufacture">
@@ -35,7 +37,11 @@
               <br />
               производитель
             </h2>
-            <p class="offer-text__manufacture-subtitle">Текст,текст,текст</p>
+            <p class="offer-text__manufacture-subtitle">
+              Текст,текст,
+              <br />
+              текст
+            </p>
           </div>
           <div class="offer-banner-1">
             <img
@@ -83,18 +89,28 @@
             <div class="calculate-price">
               <div class="calculate-price__item">
                 <div class="calculate-price__text">
-                  <p class="calculate-price__title">
+                  <label class="calculate-price__title" for="calculate-price">
                     сколько стоит остекление?
-                  </p>
+                  </label>
                   <span class="calculate-price__number">102 000 ₽</span>
                 </div>
-                <input class="calculate-price__input" type="range" />
+                <input
+                  class="calculate-price__input"
+                  type="range"
+                  min="15000"
+                  max="1000000"
+                  name="calculate-price-1"
+                />
               </div>
               <div class="calculate-price__item">
                 <div class="calculate-price__text">
                   <p class="calculate-price__title">сроки рассрочки</p>
                 </div>
-                <input class="calculate-price__input" type="range" />
+                <input
+                  class="calculate-price__input"
+                  type="range"
+                  name="calculate-price-2"
+                />
               </div>
               <div class="calculate-partners">
                 <p class="calculate-partners__title">Банки Партнеры:</p>
@@ -140,8 +156,12 @@
     </main>
     <footer>
       <section class="footer__items">
+        <div class="footer__discount">
+          <a href="#"><img src="img/actions_menu_item.png" alt="" /></a>
+        </div>
         <h2 class="footer__title">подвал</h2>
       </section>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
