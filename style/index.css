@@ -160,24 +160,24 @@ body {
     margin-right: 24px;
   }
   .calculate-price__input {
+    -webkit-appearance: none;
     background: #c4c4c4;
     border-radius: 3px;
     height: 5px;
     margin-bottom: 32px;
     outline: none;
-    webkit-appearance: none;
     width: 339.1px;
   }
   .calculate-price__item {
     margin-bottom: 50px;
   }
   .calculate-price__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
     background: #f26422;
     border-radius: 100px;
     cursor: pointer;
     height: 11px;
     transition: 0.1s;
-    webkit-appearance: none;
     width: 11px;
   }
   .calculate-partners {
@@ -487,11 +487,11 @@ body {
     display: flex;
   }
   .calculate-price__input {
+    -webkit-appearance: none;
     background: #c4c4c4;
     border-radius: 3px;
     height: 5px;
     outline: none;
-    webkit-appearance: none;
     width: 755px;
   }
   .calculate-price__item {
@@ -501,12 +501,12 @@ body {
     width: 100%;
   }
   .calculate-price__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
     background: #f26422;
     border-radius: 100px;
     cursor: pointer;
     height: 11px;
     transition: 0.1s;
-    webkit-appearance: none;
     width: 11px;
   }
   .calculate-price__number {
