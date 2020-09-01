@@ -22,8 +22,8 @@ body {
 @media (min-width: 310px) {
   .header__title {
     display: none;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 1.5rem;
+    line-height: 1.375rem;
   }
   .header__page {
     align-items: center;
@@ -31,29 +31,29 @@ body {
     flex-direction: column;
   }
   .header__logo {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
   .header__subtitle {
     color: #9a9a9a;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
-    line-height: 16px;
-    margin-bottom: 32px;
-    margin-top: 13px;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.8125rem;
     text-align: center;
   }
   .nav {
     background-color: yellow;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
     width: 100%;
   }
   .nav__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
-    line-height: 28px;
+    line-height: 1.75rem;
   }
   .nav__icon {
     cursor: pointer;
@@ -66,26 +66,29 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    min-height: 200px;
+    margin-bottom: 1.25rem;
+    min-height: 12.5rem;
     width: 100%;
+  }
+  .offer__head-img.img {
+    width: 160px;
   }
   .offer-text__manufacture {
     text-align: center;
   }
   .offer-text__manufacture-title {
     color: #000000;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
-    line-height: 39px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    line-height: 2.4375rem;
+    text-shadow: 0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.25);
   }
   .offer-text__manufacture-subtitle {
     color: orange;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 32px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    line-height: 2rem;
+    text-shadow: 0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.25);
   }
   .offer-text__manufacture-subtitle br {
     display: none;
@@ -94,26 +97,26 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin-bottom: 2.1875rem;
+    margin-top: 2.1875rem;
   }
   .offer-banner-2 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .gray {
     background-color: gray;
-    height: 154px;
+    height: 9.625rem;
     width: 100%;
   }
   .calculate__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 22px;
-    margin-bottom: 33px;
-    margin-top: 37px;
+    line-height: 1.375rem;
+    margin-bottom: 2.0625rem;
+    margin-top: 2.3125rem;
     text-align: center;
   }
   .calculate-features {
@@ -121,20 +124,20 @@ body {
     justify-content: space-evenly;
   }
   .item__uppertitle {
-    font-size: 10px;
+    font-size: 0.625rem;
     letter-spacing: 0.03em;
-    line-height: 16px;
+    line-height: 1rem;
     text-align: center;
   }
   .item__title {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.03em;
-    line-height: 16px;
+    line-height: 1rem;
     text-align: center;
   }
   .calculate-price {
-    margin-top: 38px;
+    margin-top: 2.375rem;
     text-align: center;
   }
   .calculate-price__item {
@@ -145,40 +148,40 @@ body {
   .calculate-price__text {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 13px;
+    margin-bottom: 0.8125rem;
   }
   .calculate-price__number {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 16px;
+    line-height: 1rem;
   }
   .calculate-price__title {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.03em;
-    line-height: 16px;
-    margin-right: 24px;
+    line-height: 1rem;
+    margin-right: 1.5rem;
   }
   .calculate-price__input {
     -webkit-appearance: none;
     background: #c4c4c4;
-    border-radius: 3px;
-    height: 5px;
-    margin-bottom: 32px;
+    border-radius: 0.1875rem;
+    height: 0.3125rem;
+    margin-bottom: 2rem;
     outline: none;
-    width: 339.1px;
+    width: 21.1938rem;
   }
   .calculate-price__item {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .calculate-price__input::-webkit-slider-thumb {
     -webkit-appearance: none;
     background: #f26422;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     cursor: pointer;
-    height: 11px;
+    height: 0.6875rem;
     transition: 0.1s;
-    width: 11px;
+    width: 0.6875rem;
   }
   .calculate-partners {
     align-items: center;
@@ -186,28 +189,28 @@ body {
     justify-content: center;
   }
   .calculate-partners__title {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.03em;
-    line-height: 16px;
-    margin-right: 13px;
+    line-height: 1rem;
+    margin-right: 0.8125rem;
   }
   .calculate-cheque {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 45px;
+    margin-bottom: 3.125rem;
+    margin-top: 2.8125rem;
     position: relative;
   }
   .cheque {
     background: white;
-    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.25rem 0.25rem 1.375rem rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 263px;
-    min-height: 349px;
-    padding: 13px;
+    max-width: 16.4375rem;
+    min-height: 21.8125rem;
+    padding: 0.8125rem;
     position: relative;
     text-align: right;
     width: 100%;
@@ -215,10 +218,10 @@ body {
   }
   .cheque::after {
     background: url(../img/cheque.png);
-    bottom: -10px;
+    bottom: -0.625rem;
     content: "";
-    height: 15px;
-    left: -3px;
+    height: 0.9375rem;
+    left: -0.1875rem;
     position: absolute;
     width: 103%;
     z-index: 5;
@@ -226,45 +229,45 @@ body {
   .calculate-cheque::before {
     background: #ffffff;
     background: white;
-    border: 20px solid #f2f2f2;
-    border-radius: 6px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1.25rem solid #f2f2f2;
+    border-radius: 0.375rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
     content: " ";
-    height: 56px;
+    height: 3.5rem;
     position: absolute;
-    top: -24px;
-    width: 324px;
+    top: -1.5rem;
+    width: 20.25rem;
     z-index: -1;
   }
   .cheque-summ,
   .cheque-payment {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
   .cheque-summ__title,
   .cheque-payment__title {
-    font-size: 14px;
-    line-height: 15px;
-    margin-bottom: 15px;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    margin-bottom: 0.9375rem;
   }
   .cheque-payment__title {
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
   }
   .cheque-summ__summ,
   .cheque-payment__summ {
-    font-size: 40px;
-    line-height: 16px;
+    font-size: 2.5rem;
+    line-height: 1rem;
   }
   .cheque-contribution {
     align-items: flex-end;
     display: flex;
     flex-direction: column;
-    margin-bottom: 33px;
+    margin-bottom: 2.0625rem;
   }
   .cheque-contribution__first-contribution {
-    margin-bottom: 17px;
+    margin-bottom: 1.0625rem;
   }
   .cheque-contribution__first-contribution,
   .cheque-contribution__overpayment {
@@ -273,38 +276,38 @@ body {
   .first-contribution__summ,
   .overpayment__summ {
     color: #f26422;
-    font-size: 24px;
-    line-height: 16px;
-    margin-left: 11px;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-left: 0.6875rem;
   }
   .cheque__button {
     background: #f26422;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.375rem;
     color: white;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 900;
     letter-spacing: 0.04em;
-    line-height: 27px;
-    padding: 6px 17px;
+    line-height: 1.6875rem;
+    padding: 0.375rem 1.0625rem;
     text-align: center;
     text-transform: uppercase;
   }
   .white-gray {
     background: #c7c7c7;
-    height: 154px;
+    height: 9.625rem;
   }
   .footer__items {
     align-items: center;
     background-color: #015a76;
     color: white;
     display: flex;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
-    height: 378px;
+    height: 23.625rem;
     justify-content: space-around;
-    line-height: 26px;
+    line-height: 1.625rem;
     margin: 0 auto;
   }
   .footer__discount {
@@ -315,7 +318,7 @@ body {
   .header__page {
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 1.875rem;
   }
   .header__title {
     display: block;
@@ -326,6 +329,7 @@ body {
   .nav__icon {
     display: none;
   }
+
   .offer {
     background: url(../img/bg-main.png);
     background-position: center;
@@ -334,7 +338,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    padding: 0px 50px;
+    padding: 0rem 3.125rem;
     position: relative;
   }
   .offer__head {
@@ -342,17 +346,20 @@ body {
     background: none;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 0px;
-    margin-top: 30px;
+    margin-bottom: 0rem;
+    margin-top: 1.875rem;
     position: relative;
-    width: 58%;
+    width: 65%;
   }
   .offer__head-img {
     display: block;
     z-index: 5;
   }
+  .offer__head-img.img {
+    width: auto;
+  }
   .offer-banner-1 {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .offer-banner-1__img {
     max-width: 15rem;
@@ -373,11 +380,11 @@ body {
     position: absolute;
     top: 0;
     transform: translateX(-60%);
-    width: 980px;
+    width: 61.25rem;
     z-index: -1;
   }
   .offer-text__manufacture {
-    margin-top: 13px;
+    margin-top: 0.8125rem;
     text-align: left;
   }
   .offer-text__manufacture-subtitle br {
@@ -385,14 +392,14 @@ body {
   }
   .offer-text__manufacture-title {
     color: white;
-    font-size: 25px;
-    line-height: 27px;
-    margin-bottom: 5px;
+    font-size: 1.5625rem;
+    line-height: 1.6875rem;
+    margin-bottom: 0.3125rem;
   }
   .offer-text__manufacture-subtitle {
     color: #ffe600;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 1.5625rem;
+    line-height: 1.6875rem;
   }
   .calculate-price {
     align-items: center;
@@ -403,13 +410,13 @@ body {
     width: 100%;
   }
   .calculate-price__input {
-    width: 700px;
+    width: 43.75rem;
   }
   .footer__items {
-    height: 120px;
+    height: 7.5rem;
   }
 }
-@media (min-width: 1900px) {
+@media (min-width: 1920px) {
   .header__container {
     margin-right: 39rem;
   }
@@ -424,7 +431,7 @@ body {
     background-size: cover;
     content: " ";
     height: 100%;
-    left: 0px;
+    left: 0rem;
     position: absolute;
     transform: translateX(-11%);
     width: 50%;
@@ -445,14 +452,17 @@ body {
     transform: translateX(-43%);
   }
   .offer-text__manufacture-title {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
   }
   .offer-text__manufacture-subtitle {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
   }
   .offer__head-img {
+    width: 100%;
+  }
+  .offer__head-img.img {
     width: 100%;
   }
   .offer__head::after {
@@ -466,16 +476,16 @@ body {
     text-align: center;
   }
   .item__uppertitle {
-    font-size: 14px;
-    margin-bottom: 7px;
+    font-size: 0.875rem;
+    margin-bottom: 0.4375rem;
   }
   .item__title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .calculate__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
-    line-height: 50px;
+    line-height: 3.125rem;
   }
   .calculate {
     align-items: center;
@@ -489,13 +499,13 @@ body {
   .calculate-price__input {
     -webkit-appearance: none;
     background: #c4c4c4;
-    border-radius: 3px;
-    height: 5px;
+    border-radius: 0.1875rem;
+    height: 0.3125rem;
     outline: none;
-    width: 755px;
+    width: 47.1875rem;
   }
   .calculate-price__item {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .calculate-price__text {
     width: 100%;
@@ -505,12 +515,12 @@ body {
     background: #f26422;
     border-radius: 100px;
     cursor: pointer;
-    height: 11px;
+    height: 0.6875rem;
     transition: 0.1s;
-    width: 11px;
+    width: 0.6875rem;
   }
   .calculate-price__number {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .calculate-price__title {
     font-size: 1.5rem;
@@ -519,7 +529,7 @@ body {
   .calculate-partners {
     font-size: 1.5rem;
     justify-content: flex-start;
-    line-height: 16px;
+    line-height: 1rem;
     margin-bottom: 4.3125rem;
     width: 100%;
   }
@@ -532,10 +542,10 @@ body {
     margin-right: 1.875rem;
   }
   .features-container {
-    margin-right: 50px;
+    margin-right: 3.125rem;
   }
   .calculate-features {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
   .footer__discount {
     display: block;
